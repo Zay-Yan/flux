@@ -1,6 +1,1 @@
-resources:
-- ../dev/
-namespace: qa0 #folders under qa0 will go under qa0 namespace
-nameSuffix: "-qa0"
-patchesStrategicMerge:
-- apache
+
