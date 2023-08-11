@@ -1,12 +1,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx
+  name: apache
 spec:
   replicas: 1
   template:
     spec:
       containers:
-      - image: nginx
+      - image: httpd:2.4.55
         name: httpd
 
